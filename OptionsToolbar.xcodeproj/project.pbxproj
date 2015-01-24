@@ -21,6 +21,7 @@
 		7116F70E19410683006C8F06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7116F6F019410683006C8F06 /* UIKit.framework */; };
 		7116F71619410683006C8F06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7116F71419410683006C8F06 /* InfoPlist.strings */; };
 		7116F71819410683006C8F06 /* OptionsToolbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7116F71719410683006C8F06 /* OptionsToolbarTests.m */; };
+		EA189A8E1A7409DC0002A4FF /* OTNewFancyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA189A8D1A7409DC0002A4FF /* OTNewFancyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		7116F71319410683006C8F06 /* OptionsToolbarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OptionsToolbarTests-Info.plist"; sourceTree = "<group>"; };
 		7116F71519410683006C8F06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7116F71719410683006C8F06 /* OptionsToolbarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OptionsToolbarTests.m; sourceTree = "<group>"; };
+		EA189A8C1A7409DC0002A4FF /* OTNewFancyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTNewFancyViewController.h; sourceTree = "<group>"; };
+		EA189A8D1A7409DC0002A4FF /* OTNewFancyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTNewFancyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				7116F6FE19410683006C8F06 /* Main.storyboard */,
 				7116F70119410683006C8F06 /* OTViewController.h */,
 				7116F70219410683006C8F06 /* OTViewController.m */,
+				EA189A8C1A7409DC0002A4FF /* OTNewFancyViewController.h */,
+				EA189A8D1A7409DC0002A4FF /* OTNewFancyViewController.m */,
 				7116F70419410683006C8F06 /* Images.xcassets */,
 				7116F6F319410683006C8F06 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				7116F6F919410683006C8F06 /* main.m in Sources */,
 				7116F6FD19410683006C8F06 /* OTAppDelegate.m in Sources */,
+				EA189A8E1A7409DC0002A4FF /* OTNewFancyViewController.m in Sources */,
 				7116F70319410683006C8F06 /* OTViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +463,7 @@
 				7116F71D19410683006C8F06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7116F71E19410683006C8F06 /* Build configuration list for PBXNativeTarget "OptionsToolbarTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				7116F72019410683006C8F06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
